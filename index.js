@@ -15,7 +15,7 @@ function my_Function(){
         window.location.assign(inp.value)
     }
     else if(drop.value=="print"){
-        window.localStorage.setItem(window.location.href)
+        window.localStorage.setItem(window.location)
     }
 }
 btn.addEventListener("click",my_Function)
